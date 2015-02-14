@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:latest
 RUN apt-get -yq update && apt-get -yq upgrade
 
 RUN apt-get -yq install git
