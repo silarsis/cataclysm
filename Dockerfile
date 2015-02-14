@@ -10,4 +10,4 @@ RUN cd /usr/local/src \
   && git clone https://github.com/CleverRaven/Cataclysm-DDA.git
 WORKDIR /usr/local/src/Cataclysm-DDA
 RUN  make #LUA=1
-CMD ./Cataclysm
+CMD ./cataclysm-launcher
